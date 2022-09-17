@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <style>
+        body{
+            background-color: darkgray;
+        }
+
+        .box{
+            width: 70px;
+            height:70px;
+            position:relative;
+            background: white;
+            animation-name: myanimation;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-play-state: running;
+        }
+        .box:hover{
+            animation-play-state: paused;
+        }
+
+        @keyframes myanimation {
+            0%{
+                background-color: white; 
+                left:0px; 
+                top:0px; 
+                border-radius: 0 0 0 0 ;
+            }
+            25%{
+                background-color: pink; 
+                left:300px; 
+                top:0px; 
+                border-radius: 50% 0 0 0 ;
+            }
+            50%{
+                background-color: red; 
+                left:300px; 
+                top:400px; 
+                border-radius: 50% 50% 0 0 ;
+            }
+            75%{
+                background-color: yellow; 
+                left:0px; 
+                top:400px; 
+                border-radius: 50% 50% 50% 0 ;
+            }
+            100%{
+                background-color: white; 
+                left:0px; 
+                top:0px; 
+                border-radius: 50% 50% 50% 50% ;
+            }
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <p>This</p> 
+</body>
+</html>

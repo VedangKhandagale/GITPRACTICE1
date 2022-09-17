@@ -1,0 +1,77 @@
+
+
+body{
+    background-color: black;
+}
+h1{
+    padding: 20px;
+    border: 30px solid blue;
+    align-self: center;
+    margin: 40px;
+    border-radius: 10px;
+    font-size: 70px;
+    
+color: rgb(0, 225, 255);
+     }
+    
+    .heading{
+         color: bisque;
+         font-size: 50px;
+         text-align: center;
+
+     }
+     .style1{
+         color: blue;
+     }
+     #style2{
+         color: rgb(66, 192, 150);
+     }
+     div{
+        padding: 20px;
+        background-color: blueviolet;
+        
+        
+        
+        
+     }
+     div>h2>a:hover{
+        color: aqua;
+        
+     }
+     p{
+        color: blueviolet;
+        font-size: 30px;
+     }
+     a{
+        text-decoration: none;
+        color: red;
+     }
+    input[type="submit"]{
+        padding: 20px ;
+        background-color: blueviolet;
+        border-radius: 6px;
+     }
+     input[type="reset"]{
+        padding: 20px ;
+        background-color: blueviolet;
+        border-radius: 6px;
+     }
+     input[type="submit"]:hover{
+        padding: 20px ;
+        background-color: bisque;
+        border-radius: 6px;
+     }
+     input[type="reset"]:hover{
+        padding: 20px ;
+        background-color: bisque;
+        border-radius: 6px;
+     }
+     input[type="text"],input[type="number"],#city,input[type="date"],input[type="email"]{
+        width: 50%;
+        height: 30px;
+        border-radius: 4px;
+        background-color: gray;
+        color: rgb(155, 127, 182);
+        font-size: 30px;
+     }
+     
